@@ -24,7 +24,7 @@ export default {
       {
         antd: true,
         dva: true,
-        dynamicImport: false,
+        dynamicImport: true, // 处理按需加载的问题
         title: 'eggdemo',
         dll: false,
         routes: {
