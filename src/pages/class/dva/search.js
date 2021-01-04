@@ -17,7 +17,7 @@ export default class Search extends Component {
 
     handleSubmit = (value) =>{
       this.props.dispatch({
-        type:'search/getListAsync', // 命名空间/方法名
+        type:'search/getListAsync', // 命名空间namespace/方法名
         payload: this.state.value
       })
       // alert(value)
